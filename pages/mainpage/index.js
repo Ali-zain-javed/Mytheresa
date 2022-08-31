@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import Link from 'next/link'
 import { Carousel } from '../../components'
-import { top, popularUrl, upComingUrl } from './Constant'
+import { top, popularUrl, upComingUrl } from '../../utils/Constant'
 
 // this is main component in which Carousels of different category displaying 
 
