@@ -1,4 +1,4 @@
-import { memo, useMemo, useState, useEffect } from 'react'
+import { memo, useMemo, useState, useEffect ,useCallback} from 'react'
 import Image from "next/image";
 import { useRouter } from 'next/router'
 import { Button } from '../../components'
@@ -15,15 +15,15 @@ const Detail = memo(() => {
     const { globalDispatch, globalState } = Context();
     let watchList = globalState.watchList;
 
-    const movieObj = useMemo(() => {
-        return { id: id };
-      }, [id])
+    const fetchData = useCallback(() => {
+        setLoading(true)
+        fetchMovieDetail();
+    }, [id]);
 
     ///on opening page fetch api call
     useEffect(() => {
-        setLoading(true)
-        fetchMovieDetail();
-    }, [movieObj]);
+        fetchData();
+    }, [fetchData]);
 
     //Method to fetch most popular movies
     const fetchMovieDetail = async () => {
