@@ -1,3 +1,8 @@
+- SSR Rendering
+- Storybook integration
+- unit test integration
+
+
 
 ## Requirements
 - [Node.js](https://nodejs.org/en/)
@@ -9,4 +14,5 @@
 yarn
 yarn dev # development server
 yarn sb # storybook
+yarn run test # unit test
 ```
