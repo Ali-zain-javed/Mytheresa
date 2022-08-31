@@ -20,7 +20,7 @@ const Detail = memo(() => {
     useEffect(() => {
         setLoading(true)
         fetchMovieDetail();
-    }, [id]);
+    }, []);
 
     //Method to fetch most popular movies
     const fetchMovieDetail = async () => {
@@ -86,8 +86,8 @@ const Detail = memo(() => {
                                         {movieDetail && movieDetail.release_date}
                                     </span>
                                     <span className="genres">
-                                        {movieDetail && movieDetail.genres && movieDetail.genres.map(item => {
-                                            return (<a href="/genre/28-action/movie"> {item.name} ,&nbsp;</a>)
+                                        {movieDetail && movieDetail.genres && movieDetail.genres.map((item, index) => {
+                                            return (<a key={item + index}> {item.name} ,&nbsp;</a>)
                                         })}
                                     </span>
                                     <span className="runtime">
@@ -135,4 +135,5 @@ const Detail = memo(() => {
     );
 }
 )
+Detail.displayName = "Detail"
 export default Detail

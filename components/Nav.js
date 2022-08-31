@@ -18,9 +18,9 @@ export default function Nav() {
         <div className="header-right">
           <Link href="/"><a >Home</a></Link>
           <a href="#about">About</a>
-          {watchList && <a style={{ cursor: 'pointer' }} onClick={changeModalState} class="notification">
+          {watchList && <a style={{ cursor: 'pointer' }} onClick={changeModalState} className="notification">
             <span>Watchlist</span>
-            <span class="badge">{watchList.length}</span>
+            <span className="badge">{watchList.length}</span>
           </a>}
         </div>
       </div>
@@ -29,8 +29,8 @@ export default function Nav() {
           <span className="close" onClick={changeModalState}>&times;</span>
           <h2>WatchList</h2>
           {
-            watchList && watchList.map(item => {
-              return <div style={{ textDecoration: 'underline', marginBottom: '8px' }}>{item}</div>
+            watchList && watchList.map((item, index) => {
+              return <div key={item + index} style={{ textDecoration: 'underline', marginBottom: '8px' }}>{item}</div>
             })
           }
         </div>
