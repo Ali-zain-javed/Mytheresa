@@ -1,3 +1,8 @@
+SSR Rendering
+Storybook integration
+unit test integration
+
+
 
 ## Requirements
 - [Node.js](https://nodejs.org/en/)
