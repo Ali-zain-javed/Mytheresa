@@ -1,0 +1,309 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`With Snapshot Testing App shows "Hello, Sunshine!" 1`] = `
+<div
+  className="main"
+>
+  <div
+    className="DashboardLayout__Section-sc-mfufh9-0 gOnbdn"
+  >
+    <div
+      className="DashboardLayout__Container-sc-mfufh9-1 bKSnbP"
+    >
+      <div
+        className="DashboardLayout__Box-sc-mfufh9-2 eBCEsg"
+        id="first"
+      >
+        <h3
+          className="DashboardLayout__BoxTitle-sc-mfufh9-3 erEOoG"
+        >
+          Future-proof your business. WiFi 6E is here.
+        </h3>
+        <p
+          className="DashboardLayout__BoxText-sc-mfufh9-4 hLYCbk"
+        >
+          Offer your customers the fastest performance possible with Plume. They’re ready.
+        </p>
+        <button
+          className="button custom-button"
+          type="button"
+          width="300"
+        >
+          Learn more about WiFi 6E
+        </button>
+      </div>
+      <div
+        className="DashboardLayout__Box-sc-mfufh9-2 kJca-Dk"
+        id="second"
+      >
+        <span
+          style={
+            Object {
+              "background": "none",
+              "border": 0,
+              "boxSizing": "border-box",
+              "display": "inline-block",
+              "height": "initial",
+              "margin": 0,
+              "maxWidth": "100%",
+              "opacity": 1,
+              "overflow": "hidden",
+              "padding": 0,
+              "position": "relative",
+              "width": "initial",
+            }
+          }
+        >
+          <span
+            style={
+              Object {
+                "background": "none",
+                "border": 0,
+                "boxSizing": "border-box",
+                "display": "block",
+                "height": "initial",
+                "margin": 0,
+                "maxWidth": "100%",
+                "opacity": 1,
+                "padding": 0,
+                "width": "initial",
+              }
+            }
+          >
+            <img
+              alt=""
+              aria-hidden={true}
+              src="data:image/svg+xml,%3csvg%20xmlns=%27http://www.w3.org/2000/svg%27%20version=%271.1%27%20width=%27800%27%20height=%27800%27/%3e"
+              style={
+                Object {
+                  "background": "none",
+                  "border": 0,
+                  "display": "block",
+                  "height": "initial",
+                  "margin": 0,
+                  "maxWidth": "100%",
+                  "opacity": 1,
+                  "padding": 0,
+                  "width": "initial",
+                }
+              }
+            />
+          </span>
+          <img
+            alt="loading..."
+            data-nimg="intrinsic"
+            decoding="async"
+            src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+            style={
+              Object {
+                "border": "none",
+                "bottom": 0,
+                "boxSizing": "border-box",
+                "display": "block",
+                "height": 0,
+                "left": 0,
+                "margin": "auto",
+                "maxHeight": "100%",
+                "maxWidth": "100%",
+                "minHeight": "100%",
+                "minWidth": "100%",
+                "objectFit": undefined,
+                "objectPosition": undefined,
+                "padding": 0,
+                "position": "absolute",
+                "right": 0,
+                "top": 0,
+                "width": 0,
+              }
+            }
+          />
+          <noscript>
+            <img
+              alt="loading..."
+              data-nimg="intrinsic"
+              decoding="async"
+              loading="lazy"
+              src="/image.svg?w=1920&q=75"
+              srcSet="/image.svg?w=828&q=75 1x, /image.svg?w=1920&q=75 2x"
+              style={
+                Object {
+                  "border": "none",
+                  "bottom": 0,
+                  "boxSizing": "border-box",
+                  "display": "block",
+                  "height": 0,
+                  "left": 0,
+                  "margin": "auto",
+                  "maxHeight": "100%",
+                  "maxWidth": "100%",
+                  "minHeight": "100%",
+                  "minWidth": "100%",
+                  "objectFit": undefined,
+                  "objectPosition": undefined,
+                  "padding": 0,
+                  "position": "absolute",
+                  "right": 0,
+                  "top": 0,
+                  "width": 0,
+                }
+              }
+            />
+          </noscript>
+        </span>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`With Snapshot Testing App shows Future-proof your business. WiFi 6E is here.!" 1`] = `
+<div
+  className="DashboardLayout__Section-sc-mfufh9-0 gOnbdn"
+>
+  <div
+    className="DashboardLayout__Container-sc-mfufh9-1 bKSnbP"
+  >
+    <div
+      className="DashboardLayout__Box-sc-mfufh9-2 eBCEsg"
+      id="first"
+    >
+      <h3
+        className="DashboardLayout__BoxTitle-sc-mfufh9-3 erEOoG"
+      >
+        Future-proof your business. WiFi 6E is here.
+      </h3>
+      <p
+        className="DashboardLayout__BoxText-sc-mfufh9-4 hLYCbk"
+      >
+        Offer your customers the fastest performance possible with Plume. They’re ready.
+      </p>
+      <button
+        className="button custom-button"
+        type="button"
+        width="300"
+      >
+        Learn more about WiFi 6E
+      </button>
+    </div>
+    <div
+      className="DashboardLayout__Box-sc-mfufh9-2 kJca-Dk"
+      id="second"
+    >
+      <span
+        style={
+          Object {
+            "background": "none",
+            "border": 0,
+            "boxSizing": "border-box",
+            "display": "inline-block",
+            "height": "initial",
+            "margin": 0,
+            "maxWidth": "100%",
+            "opacity": 1,
+            "overflow": "hidden",
+            "padding": 0,
+            "position": "relative",
+            "width": "initial",
+          }
+        }
+      >
+        <span
+          style={
+            Object {
+              "background": "none",
+              "border": 0,
+              "boxSizing": "border-box",
+              "display": "block",
+              "height": "initial",
+              "margin": 0,
+              "maxWidth": "100%",
+              "opacity": 1,
+              "padding": 0,
+              "width": "initial",
+            }
+          }
+        >
+          <img
+            alt=""
+            aria-hidden={true}
+            src="data:image/svg+xml,%3csvg%20xmlns=%27http://www.w3.org/2000/svg%27%20version=%271.1%27%20width=%27800%27%20height=%27800%27/%3e"
+            style={
+              Object {
+                "background": "none",
+                "border": 0,
+                "display": "block",
+                "height": "initial",
+                "margin": 0,
+                "maxWidth": "100%",
+                "opacity": 1,
+                "padding": 0,
+                "width": "initial",
+              }
+            }
+          />
+        </span>
+        <img
+          alt="loading..."
+          data-nimg="intrinsic"
+          decoding="async"
+          src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+          style={
+            Object {
+              "border": "none",
+              "bottom": 0,
+              "boxSizing": "border-box",
+              "display": "block",
+              "height": 0,
+              "left": 0,
+              "margin": "auto",
+              "maxHeight": "100%",
+              "maxWidth": "100%",
+              "minHeight": "100%",
+              "minWidth": "100%",
+              "objectFit": undefined,
+              "objectPosition": undefined,
+              "padding": 0,
+              "position": "absolute",
+              "right": 0,
+              "top": 0,
+              "width": 0,
+            }
+          }
+        />
+        <noscript>
+          <img
+            alt="loading..."
+            data-nimg="intrinsic"
+            decoding="async"
+            loading="lazy"
+            src="/image.svg?w=1920&q=75"
+            srcSet="/image.svg?w=828&q=75 1x, /image.svg?w=1920&q=75 2x"
+            style={
+              Object {
+                "border": "none",
+                "bottom": 0,
+                "boxSizing": "border-box",
+                "display": "block",
+                "height": 0,
+                "left": 0,
+                "margin": "auto",
+                "maxHeight": "100%",
+                "maxWidth": "100%",
+                "minHeight": "100%",
+                "minWidth": "100%",
+                "objectFit": undefined,
+                "objectPosition": undefined,
+                "padding": 0,
+                "position": "absolute",
+                "right": 0,
+                "top": 0,
+                "width": 0,
+              }
+            }
+          />
+        </noscript>
+      </span>
+    </div>
+  </div>
+</div>
+`;
