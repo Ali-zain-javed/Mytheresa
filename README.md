@@ -14,4 +14,5 @@
 yarn
 yarn dev # development server
 yarn sb # storybook
+yarn run test # unit test
 ```
