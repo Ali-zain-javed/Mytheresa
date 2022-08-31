@@ -1,6 +1,6 @@
-SSR Rendering
-Storybook integration
-unit test integration
+- SSR Rendering
+- Storybook integration
+- unit test integration
 
 
 
